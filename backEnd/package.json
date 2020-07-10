@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "task management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipeshji/taskManagement.git"
+  },
+  "author": "Dipesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dipeshji/taskManagement/issues"
+  },
+  "homepage": "https://github.com/dipeshji/taskManagement#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
